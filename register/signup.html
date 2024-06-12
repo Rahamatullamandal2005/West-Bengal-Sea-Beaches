@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- Link css File -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+      <link rel="stylesheet" href="/register/login.css">
+      <link rel="stylesheet" href="/index.css" />
+      <link rel="stylesheet" href="/Nav/header.css" />
+      <link rel="stylesheet" href="/Nav/footer.css" />
+      <link rel="stylesheet" href="/index/gallery.css">
+      <link rel="stylesheet" href="/register/signup.css">
+
+    <!-- Font Awesome Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- This Style is for use of two verson of Font Awesome CDN -->
+      <style>
+        .fa4 {
+          font-family: "FontAwesome";
+        }
+        .fa6 {
+          font-family: "Font Awesome 6 Free";
+        }
+      </style>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="item1">
+                <div class="child-img">
+                    <img src="/assests/images/logo-removebg-preview.png" alt="logo" class="img" style="width: 65px" />
+                </div>
+                <div class="child-name">
+                    <h1 class="logo">West Bengal Sea Beaches</h1>
+                </div>
+            </div>
+            <div class="item2">
+                <nav class="nav sidemenu">
+                    <ul>
+                        <li><a href="/index.html" class="tab-links" onclick="opentab('home')">Home</a></li>
+                        <li><a href="#beaches" id="beachesLink" class="tab-links" onclick="opentab('')">Beaches</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn tab-links" onclick="opentab('menu')">Menu</a>
+                            <div class="dropdown-content">
+                                <!-- <a href="#">Market</a> -->
+                                <a href="/Hotels/hotels.html">Hotels</a>
+                                <a href="/Turist Cornner/turist.html">Tourist Corner</a>
+                            </div>
+                        </li>
+                        <li><a href="/index/gallery.html" class="tab-links" onclick="opentab('gallery')">Gallery</a></li>
+                        <li><a href="/index/contact.html" class="tab-links" onclick="opentab('contact')">Contact</a></li>
+                        <li><a href="/register/signup.html" class="tab-links active-link" onclick="opentab('register')">Register / Sign Up</a></li>
+                        <li><a href="/register/login.html" class="tab-links" onclick="opentab('login')">Login</a></li>
+                        <i class="fa6 fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                </nav>
+            </div>
+            <div class="burger">
+                <i class="fa4 fa fa-bars" onclick="openmenu()"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- signup or Register Section Start -->
+    <section class="register tab-contains" id="register">
+        <div class="register-form">
+            <h1>REGISTER</h1>
+            <form class="form">
+                <input type="text" class="input-box" placeholder="Enter your Username" required>
+                <input type="email" class="input-box" placeholder="Enter your Email" required>
+                <input type="password" class="input-box" placeholder="Enter your Password" required>
+                <input type="password" class="input-box" placeholder="Confirm your Password" required>
+                <button class="register-btn">REGISTER</button>
+                <p class="fpassword" style="position: relative; right: 3px;"><a href="#">Forgot Password?</a></p>
+                <p class="or">OR</p>
+                <a href="#"><i class="fa fa-google" style="font-size:40px;color:red"></i></a>
+                <a href="#"><i class="fa fa-facebook" style="font-size:40px;color:rgb(51, 0, 255)"></i></a>
+                <a href="#"><i class="fa fa-linkedin" style="font-size:48px;color:rgb(53, 58, 187)"></i></a>
+                <p class="sign_in">Already have an account? <a href="/register/login.html">SIGN IN</a></p>
+            </form>
+        </div>
+    </section>
+    <!-- signup or Register Section End -->
+
+    <!-- Java Script File -->
+    <script src="/Java Script/script.js"></script>
+    <script src="/Java Script/scrol.js"></script>
+    <script src="/Java Script/change-tab.js"></script>
+</body>
+</html>

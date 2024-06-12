@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels in West Bengal</title>
+
+    <!-- Link css File -->
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/Nav/header.css" />
+    <link rel="stylesheet" href="/Nav/footer.css" />
+    <link rel="stylesheet" href="/index/gallery.css">
+    <link rel="stylesheet" href="/skins/color1.css">
+    <link rel="stylesheet" href="/Hotels/hotels.css">
+    <!-- <link rel="stylesheet" href="/skins/color2.css">
+    <link rel="stylesheet" href="/skins/color3.css">
+    <link rel="stylesheet" href="/skins/color4.css">
+    <link rel="stylesheet" href="/skins/color5.css"> -->
+
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <!-- This Style is for use of two verson of Font Awesome CDN -->
+  <style>
+    .fa4 {
+      font-family: "FontAwesome";
+    }
+    .fa6 {
+      font-family: "Font Awesome 6 Free";
+    }
+  </style>
+    
+</head>
+<body>
+    <!-- Header Section Start -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="item1">
+        <div class="child-img">
+          <img src="/assests/images/logo-removebg-preview.png" alt="logo" class="img" style="width: 65px"/>
+        </div>
+        <div class="child-name">
+          <h1 class="logo">West Bengal Sea Beaches</h1>
+        </div>
+      </div>
+
+      <div class="item2">
+        <nav class="nav sidemenu">
+          <ul>
+            <li><a href="/index.html" class="tab-links" onclick="opentab('home')">Home</a></li>
+            <!-- <li><a href="#">About us</a></li> -->
+            <li><a href="/index.html" id="beachesLink" class="tab-links" onclick="opentab('')">Beaches</a></li>
+            <li class="dropdown"> 
+              <a href="/index.html" class="dropbtn tab-links" onclick="opentab('menu')">Menu</a>
+              <div class="dropdown-content"> 
+                  <!-- <a href="#">Market</a> -->
+                  <a href="/Hotels/hotels.html" class="tab-links active-link" onclick="opentab('hotels')">Hotels</a>
+                  <a href="/Turist Cornner/turist.html">Turist Corner</a>
+              </div>
+            </li>
+            <li><a href="/index/gallery.html" class="tab-links" onclick="opentab('gallery')">Gallery</a></li>
+            <li><a href="/index/contact.html" class="tab-links" onclick="opentab('contact')">Contact</a></li>
+            <li><a href="/register/signup.html" class="tab-links" onclick="opentab('register')">Register / Sign Up</a></li>
+            <li><a href="/register/login.html" class="tab-links" onclick="opentab('login')">Login</a></li>
+            <i class="fa6 fas fa-times" onclick="closemenu()"></i>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="burger">
+        <i class="fa4 fa fa-bars" onclick="openmenu()"></i>
+      </div>
+    </div>
+  </header>   
+  <!-- Header Section End -->
+  <!-- Hotels Section Start -->
+    <section class="hotels tab-contains" id="hotels">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                  <h2>Hotels Near Beaches in West Bengal</h2>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <!-- filter Items -->
+                <nav>
+                  <div class="items">
+                    <span class="item active" data-name="all">All</span>
+                    <span class="item" data-name="digha">Digha</span>
+                    <span class="item" data-name="falta">Falta</span>
+                    <span class="item" data-name="sankarpur">Sankarpur</span>
+                    <span class="item" data-name="junput">Junput</span>
+                    <span class="item" data-name="bakkhali">Bakkhali</span>
+                    <span class="item" data-name="mandarmoni">Mandarmoni</span>
+                  </div>
+                </nav>
+                <!-- filter Images -->
+                <div class="gallery">
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+                  <div class="image hotel" data-name="digha"><span><img src="https://t3.ftcdn.net/jpg/02/13/90/68/360_F_213906842_KXYvVrCvhQooP5SUUwWli9bnlsjkFreP.jpg" alt="college"></span><h2>Hotel A</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#">Book Now</a></div>
+          
+                </div>
+              </div>
+          </div>
+            
+        </div>
+    </section>
+    <!-- Hotels Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h3>West Bengal Beaches</h3>
+              <p>Explore the beauty of West Bengal's beaches.</p>
+            </div>
+            <nav class="footer-nav">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Beaches</a></li>
+                <li><a href="#">Attractions</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon"
+                ><i class="fa4 fa fa-facebook"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa4 fa fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa4 fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section End -->
+    
+      <!-- Java Script File -->
+      <script src="/Java Script/script.js"></script>
+      <!-- <script src="/Java Script/scrol.js"></script> -->
+      <script src="/Java Script/change-tab.js"></script>
+      <script src="/Java Script/gallery.js"></script>
+
+</body>
+</html>

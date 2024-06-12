@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    background: rgba(87, 84, 84, 0.65) url(https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    width: 90%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 20px;
+}
+
+.login-form:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+}
+
+.input-box {
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    transition: all 0.3s ease;
+}
+
+.input-box:focus {
+    border-color: #6666ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 102, 255, 0.5);
+}
+
+.checkbox {
+    margin-top: 10px; 
+    font-size: 16px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.login-btn {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(45deg, #6a5acd, #836fff);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(45deg, #836fff, #6a5acd);
+}
+
+.fpassword {
+    text-align: right;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fpassword a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #6a5acd;
+    transition: all 0.3s ease;
+}
+
+.fpassword a:hover {
+    color: #836fff;
+}
+
+.or {
+    margin: 15px 0;
+    color: #666666;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or::before, .or::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 10px;
+}
+
+i {
+    margin: 10px;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+i:hover {
+    transform: scale(1.1);
+}
+
+.sign_up, a {
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sign_up a {
+    color: #6a5acd;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.sign_up a:hover {
+    color: #836fff;
+}
+
+@media screen and (min-width: 600px) {
+    .login-form {
+        padding: 50px;
+    }
+
+    .input-box, .login-btn {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .fpassword a {
+        font-size: 16px;
+    }
+
+    .sign_up, a {
+        font-size: 18px;
+    }
+
+    .sign_up a {
+        font-size: 18px;
+    }
+
+    i {
+        font-size: 30px;
+    }
+}

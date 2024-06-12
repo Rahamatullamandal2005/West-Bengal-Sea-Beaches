@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Seymour+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.digha h4 {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #1a2648;
+}
+
+.digha .row h4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.digha .container {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid rgb(222, 211, 129);
+    border-radius: 10px 10px 5px 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.digha .description {
+    text-align: justify;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(237, 231, 161);
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+.digha .description h3 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.digha .location iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin: 20px 0;
+}
+
+.digha .location h3 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.digha .bar {
+    content: '';
+    height: 5px;
+    width: 80%;
+    background-color: #222222;
+    margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+    .digha .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .digha .description, .digha .location {
+        flex: 1;
+    }
+
+    .digha .bar {
+        height: 330px;
+        width: 8.5px;
+        margin: 0 20px;
+        position: relative;
+        top: 70px;
+    }
+}
