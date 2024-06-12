@@ -39,7 +39,7 @@ To get a local copy of the project up and running, follow these steps:
 
 1. **Clone the repository:**
     ```sh
-    git clone # West Bengal Sea Beaches
+    git clone https://github.com/Rahamatullamandal2005/West-Bengal-Sea-Beaches.git
 
 ## Overview
 
