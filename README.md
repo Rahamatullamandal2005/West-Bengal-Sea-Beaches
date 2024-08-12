@@ -121,7 +121,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to contact us at rahamatullamandal2005@gmail.com.
+If you have any questions or suggestions, please feel free to contact us at rahamatullamandal2005@gmail.com and sunilsahoo1525@gmail.com.
 
 ---
 
@@ -168,7 +168,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to contact us at rahamatullamandal2005@gmail.com.
+If you have any questions or suggestions, please feel free to contact us at rahamatullamandal2005@gmail.com and sunilsahoo1525@gmail.com.
 
 ---
 
